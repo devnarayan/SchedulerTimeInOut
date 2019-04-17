@@ -6,8 +6,7 @@ namespace SchedularPrac
 {
   public  class Scheduler
     {
-        public  void Start(DateTime date)
-
+        public  void Start()
         {
 
             IScheduler scheduler = StdSchedulerFactory.GetDefaultScheduler();

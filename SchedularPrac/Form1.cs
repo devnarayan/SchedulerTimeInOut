@@ -27,9 +27,8 @@ namespace SchedularPrac
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DateTime date = dateTimePicker1.Value;
             Scheduler sc = new Scheduler();
-            sc.Start(date);
+            sc.Start();
         }
 
         private void button1_Click(object sender, EventArgs e)

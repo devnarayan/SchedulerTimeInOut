@@ -6,8 +6,10 @@ namespace SchedularPrac
     {
         public void Execute(IJobExecutionContext context)
         {
-            Form2 fm = new Form2();
-            fm.TopMost = true;
+            AlertScreen fm = new AlertScreen
+            {
+                TopMost = true
+            };
             fm.ShowDialog();
         }
     }
